@@ -342,9 +342,6 @@ button {
 
 /* 화면 너비 0 ~ 600px */
 @media (max-width: 600px){
-}
-/* 화면 너비 0 ~ 480px */
-@media (max-width: 480px){
     .wrapper{width: 100%;}
     
     .title .clock_img{width: 180px; height: 180px;}
@@ -377,6 +374,9 @@ button {
     #modal .cheer h3{font-size: 30px;}
     #modal .close_btn{font-size: 15px; padding: 10px 30px;}
     #modal .btn p{font-size: 15x;}
+}
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){
 }
 
 /* 화면 너비 0 ~ 320px */
