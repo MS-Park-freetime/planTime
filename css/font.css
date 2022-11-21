@@ -319,4 +319,72 @@ button {
     align-items: center;
 }
 
-    /*text-align: center;*/
+ /* media query*/
+/* 화면 너비 0 ~ 1220px */
+@media (max-width: 1220px){
+    
+}
+
+/* 화면 너비 0 ~ 1024px */
+@media (max-width: 1024px){
+    
+}
+
+/* 화면 너비 0 ~ 960px */
+@media (max-width: 960px){
+    
+}
+
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px){
+    
+}
+
+/* 화면 너비 0 ~ 600px */
+@media (max-width: 600px){
+}
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){
+    
+}
+
+/* 화면 너비 0 ~ 320px */
+@media (max-width: 320px){
+    .wrapper{width: 100%;}
+    
+    .title .clock_img{width: 120px; height: 120px;}
+    .title_img{width: 200px;}
+
+    .intro .intro_saying{font-size: 20px;}
+
+    .intro .explain p{font-size: 12px;}
+    .intro .explain span{font-size: 15px;}
+    .quotes img{width: 250px;}
+
+    .inputs{font-size: 8px;}
+    .inputs input{padding: 10px 15px; font-size:10px; width: 100px;}
+
+    .time_every{margin-left: 5px; width: 60px;}
+    #time_value{width: 50px;}
+
+    .start_btn{font-size: 12px; padding: 8px 15x; margin: 0 10px;}
+    .start .click_img{right: -35px; bottom: -15px;}
+
+    #copyright p{font-size: 20px;}
+
+    .result .result_wrap div{font-size: 11px;}
+    .result span{font-size: 30px;}
+
+    .modal_btn, .share_btn{font-size: 11px; padding: 10px 20px;}
+
+    #modal .modal_wrap{width: 300px; height: 400px;}
+    #modal .cheer h1{font-size: 30px;}
+    #modal .cheer h3{font-size: 20px;}
+    #modal .close_btn{font-size: 12px; padding: 10px 20px;}
+    #modal .btn p{font-size: 13px;}
+    /* #modal .succ_img{margin: 10px;} */
+
+
+
+
+}
