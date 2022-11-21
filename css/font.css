@@ -345,7 +345,38 @@ button {
 }
 /* 화면 너비 0 ~ 480px */
 @media (max-width: 480px){
+    .wrapper{width: 100%;}
     
+    .title .clock_img{width: 180px; height: 180px;}
+    .title_img{width: 300px;}
+
+    .intro .intro_saying{font-size: 30px;}
+
+    .intro .explain p{font-size: 15px;}
+    .intro .explain span{font-size: 20px;}
+    .quotes img{width: 250px;}
+
+    .inputs{font-size: 12px;}
+    .inputs input{padding: 10px 15px; font-size:15px; width: 100px;}
+
+    /* .time_every{margin-left: 5px; width: 60px;} */
+    #time_value{width: 50px;}
+
+    .start_btn{font-size: 12px; padding: 8px 15x; margin: 0 10px;}
+    .start .click_img{right: -35px; bottom: -15px;}
+
+    #copyright p{font-size: 20px;}
+
+    .result .result_wrap div{font-size: 15px;}
+    .result span{font-size: 40px;}
+
+    .modal_btn, .share_btn{font-size: 15px; padding: 10px 30px;}
+
+    #modal .modal_wrap{width: 400px; height: 500px;}
+    #modal .cheer h1{font-size: 40px;}
+    #modal .cheer h3{font-size: 30px;}
+    #modal .close_btn{font-size: 15px; padding: 10px 30px;}
+    #modal .btn p{font-size: 15x;}
 }
 
 /* 화면 너비 0 ~ 320px */
